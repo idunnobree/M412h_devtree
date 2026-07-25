@@ -119,3 +119,5 @@ export OF_ENABLE_FRP_ADDON=1
 # affected binary (zstd, par2turbo, ksud, busybox) individually before enabling
 # broadly. maintainer.xml itself is not an executable and is unaffected.
 export FOX_COMPRESS_EXECUTABLES=0
+ln -sf gnused recovery/root/sbin/sed
+ln -sf gnutar recovery/root/sbin/tar
