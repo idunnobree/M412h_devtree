@@ -29,7 +29,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/tommynok/Inoi_a75_devtree'
+        default: 'https://github.com/idunnobree/M412h_devtree'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -37,15 +37,15 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/inoi/INOI_A75'
+        default: 'device/meizu/M412H'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'INOI_A75'
+        default: 'M412H'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL'
         required: true
-        default: 'https://github.com/tommynok/recovery_mt6789-common'
+        default: 'https://github.com/idunnobree/recovery_mt6789-common'
       COMMON_TREE_BRANCH:
         description: 'COMMON_TREE_BRANCH'
         required: true
@@ -57,7 +57,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_INOI_A75'
+        default: 'twrp_M412H'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
@@ -134,8 +134,8 @@ jobs:
         mkdir workspace
         cd workspace
         echo "workspace-folder=$(pwd)" >> $GITHUB_OUTPUT
-        git config --global user.name "tommynok"
-        git config --global user.email "tommynok@users.noreply.github.com"
+        git config --global user.name "idunnobree"
+        git config --global user.email "idunnobree@users.noreply.github.com"
         repo init --depth=1 -u ${{ github.event.inputs.MANIFEST_URL }} -b ${{ github.event.inputs.MANIFEST_BRANCH }}
       id: pwd
           
