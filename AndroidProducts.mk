@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_INOI_A75.mk
+    $(LOCAL_DIR)/twrp_M412H.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_INOI_A75-eng
+    twrp_M412H-eng

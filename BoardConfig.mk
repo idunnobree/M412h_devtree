@@ -4,20 +4,20 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/inoi/INOI_A75
+DEVICE_PATH := device/meizu/M412H
 
 # Inherit from mt6789-common
 include device/alldocube/mt6789-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := INOI_A75,A750,INOI_A75_Elegance
+TARGET_OTA_ASSERT_DEVICE := M412H,MEIZU_Note21Pro
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_INOI_A75
-TARGET_RECOVERY_DEVICE_MODULES := libinit_INOI_A75
+TARGET_INIT_VENDOR_LIB := libinit_meizu-M412H
+TARGET_RECOVERY_DEVICE_MODULES := libinit_meizu-M412H
 
 # TWRP Configs
-TW_DEVICE_VERSION := INOI_A75_NEEA_U_V6_20250828
+TW_DEVICE_VERSION := MEIZU_Note21Pro_14.0.6
 
 
 # Device Resolution

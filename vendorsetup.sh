@@ -19,10 +19,10 @@
 #
 #set -o xtrace
 
-FDEVICE="INOI_A75"
+FDEVICE="M412H"
 
 fetch_mt6789_common_repo() {
-	local URL=https://github.com/tommynok/recovery_mt6789-common.git
+	local URL=https://github.com/idunnobree/recovery_mt6789-common.git
 	local common=device/alldocube/mt6789-common
 	if [ ! -d $common ]; then
 		echo "Cloning $URL ... to $common"
@@ -110,7 +110,7 @@ export FOX_ENABLE_SUKISU_SUPPORT=1
 export FOX_DELETE_MAGISK_ADDON=1
 
 # FRP removal addon - EXPERIMENTAL. No-op unless device has a dedicated frp
-# partition. INOI A75 partition table needs to be checked before relying on this.
+# partition. M412H partition table needs to be checked before relying on this.
 export OF_ENABLE_FRP_ADDON=1
 
 # UPX-compress executables >128kb in /sbin and /system/bin - EXPERIMENTAL.
@@ -119,5 +119,5 @@ export OF_ENABLE_FRP_ADDON=1
 # affected binary (zstd, par2turbo, ksud, busybox) individually before enabling
 # broadly. maintainer.xml itself is not an executable and is unaffected.
 export FOX_COMPRESS_EXECUTABLES=0
-ln -sf gnused device/inoi/INOI_A75/recovery/root/sbin/sed
-ln -sf gnutar device/inoi/INOI_A75/recovery/root/sbin/tar
+ln -sf gnused device/meizu/M412H/recovery/root/sbin/sed
+ln -sf gnutar device/meizu/M412H/recovery/root/sbin/tar
