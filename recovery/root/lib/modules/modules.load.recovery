@@ -121,7 +121,7 @@ pd_dbg_info.ko
 sgm415xx.ko
 sc8551_charger.ko
 tcpc_class.ko
-tcpc_sc2150.ko
+tcpc_rt1711h.ko
 mtk_chg_type_det.ko
 mtk_pd_adapter.ko
 mtk_pep40.ko
@@ -175,4 +175,3 @@ mtk-pm-domain-disable-unused.ko
 sec.ko
 uload_ind.ko
 load_track.ko
-focaltech_tp.ko

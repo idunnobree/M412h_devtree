@@ -146,6 +146,9 @@ alias of:N*T*Cmediatek,mt6983-spmi spmi_mtk_pmif
 alias of:N*T*Cmediatek,mt6983-spmiC* spmi_mtk_pmif
 alias of:N*T*Csamsung,ana6705,cmd,fhdp panel_samsung_ana6705_cmd_fhdp
 alias of:N*T*Csamsung,ana6705,cmd,fhdpC* panel_samsung_ana6705_cmd_fhdp
+alias i2c:rt1711h tcpc_rt1711h
+alias i2c:rt1715 tcpc_rt1711h
+alias i2c:rt1716 tcpc_rt1711h
 alias of:N*T*Cmediatek,mtk_ctd mtk_chg_type_det
 alias of:N*T*Cmediatek,mtk_ctdC* mtk_chg_type_det
 alias of:N*T*Cmediatek,charger,pe2 mtk_pep20
@@ -233,7 +236,6 @@ alias of:N*T*Cmediatek,srclken-rc clkbuf
 alias of:N*T*Cmediatek,srclken-rcC* clkbuf
 alias of:N*T*Cmediatek,mt6375-adc mt6375_adc
 alias of:N*T*Cmediatek,mt6375-adcC* mt6375_adc
-alias i2c:sc2150 tcpc_sc2150
 alias of:N*T*Cmediatek,extcon-usb extcon_mtk_usb
 alias of:N*T*Cmediatek,extcon-usbC* extcon_mtk_usb
 alias of:N*T*Cmediatek,usb_meta meta
@@ -1029,5 +1031,3 @@ alias of:N*T*Cmediatek,mt6855-mdpm mtk_mdpm
 alias of:N*T*Cmediatek,mt6855-mdpmC* mtk_mdpm
 alias of:N*T*Cmediatek,mt6789-mdpm mtk_mdpm
 alias of:N*T*Cmediatek,mt6789-mdpmC* mtk_mdpm
-alias of:N*T*Cfocaltech,fts focaltech_tp
-alias of:N*T*Cfocaltech,ftsC* focaltech_tp
